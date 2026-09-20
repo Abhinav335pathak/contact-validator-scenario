@@ -34,3 +34,5 @@ def normalize_phone(phone):
     if not is_valid_phone(phone):
         raise ValueError("phone is not valid")
     return phone.replace("-", "")
+
+    
